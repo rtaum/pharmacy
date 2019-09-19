@@ -9,8 +9,7 @@
     [MainPhone]        NVARCHAR (50) NULL,
     [RegionalDistrict] NVARCHAR (50) NULL,
     [Zones]            INT           NULL,
-    [ID]               INT           IDENTITY (1, 1) NOT NULL,
-    [Code] INT NOT NULL, 
+    [ID]               INT           IDENTITY (1, 1) NOT NULL
     CONSTRAINT [pk_LocationID] PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 
