@@ -67,4 +67,7 @@
     <Build Include="dbo\Tables\LocationExtra.sql" />
     <Build Include="dbo\Stored Procedures\uspInsertOrUpdateLocationExtra.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PharmacyDatabase.publish.xml" />
+  </ItemGroup>
 </Project>
